@@ -72,7 +72,7 @@ sentieon driver -t NUMBER_THREADS -r REFERENCE -i DEDUPED_BAM \
     --pcr_indel_model none --model DNASCOPE_MODEL/dnascope.model \
     TMP_VARIANT_VCF
 ```
-##TNScope
+## TNScope
 ```
 sentieon driver -t NUMBER_THREADS -r REFERENCE \
   -i TUMOR_DEDUPED_BAM [-q TUMOR_RECAL_DATA.TABLE] \
